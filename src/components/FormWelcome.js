@@ -13,8 +13,7 @@ export const FormWelcome = ({ setName }) => {
     setName(user);
     setUser('')
   };
- 
-  console.log(user)
+  
   return (
     <form onSubmit={handleSubmit} className="d-flex mb-5">
       <input 
