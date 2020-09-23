@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../style/formWelcome.css"
 
 export const FormWelcome = ({ setName }) => {
   const [user, setUser] = useState("");
@@ -15,13 +16,14 @@ export const FormWelcome = ({ setName }) => {
  
   console.log(user)
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="d-flex mb-5">
       <input 
       type="text" 
-      placeholder="Name" 
+      placeholder="Name"   
       onChange={handleChange}
-      value={user}></input>
-      <button>Save</button>
+      value={user}
+      className="inputName form-control"></input> 
+      <button className="btn btn-success btn-sm ml-1  buttonWelcome ">Save</button>
     </form>
   );
 };

@@ -5,8 +5,8 @@ import { Welcome } from './components/Welcome';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="container-fluid">
+      <header>
        <Welcome/>
       </header>
     </div>
