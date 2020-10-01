@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Welcomelogo from "../images/Welcome.JPG";
-import { FormWelcome } from "./FormWelcome";
+import FormWelcome from "./FormWelcome";
 
 import "../style/welcome.css"
 
-export const Welcome = () => {
+const Welcome = () => {
   const [state, setState] = useState("");
 
   console.log(state);
@@ -17,3 +17,5 @@ export const Welcome = () => {
     </div>
   );
 };
+
+export default Welcome;
