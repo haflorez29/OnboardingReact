@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../style/formWelcome.css";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const FormWelcome = ({ setName }) => {
   const [user, setUser] = useState("");
@@ -24,19 +24,16 @@ const FormWelcome = ({ setName }) => {
         value={user}
         className="inputName form-control"
       ></input>
-      <Router>
         <Link
-          // to="/imagine"
           to={{
             pathname: "/imagine",
-            state: ""
+            state: {user:user}
           }}
         >
           <button className="btn btn-success btn-sm ml-1  buttonWelcome ">
             Save
           </button>
         </Link>
-      </Router>
     </form>
   );
 };

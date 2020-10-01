@@ -6,16 +6,16 @@ import Welcome from "./Welcome";
 const Routers = () => {
   return (
     <Router>
-      <Switch>
-        <Route path="/">
-          <Welcome />
+      <Switch>       
+        <Route path="/imagine" component={Imagine}>
+          {/* <Imagine /> */}
         </Route>
-        <Route path="/imagine">
-          <Imagine />
+        <Route exact path="/" component={Welcome}>
+          {/* <Welcome /> */}
         </Route>
       </Switch>
     </Router>
-  );
+  )
 };
 
 export default Routers;
