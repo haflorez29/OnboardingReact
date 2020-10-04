@@ -9,7 +9,6 @@ function App() {
     <div className="container-fluid">
       <header>
         <Welcome />
-        <Imagine/>
       </header>
     </div>
   )
