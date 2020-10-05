@@ -2,16 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Imagine from "./Imagine";
 import Welcome from "./Welcome";
-import CareerPath from "./CareerPath";
-import Acordion from "./Acordion"
+import CareerPath from "./Career Path/CareerPath";
 
 const Routers = () => {
   return (
     <Router>
-      <Switch>        
-        <Route path="/Acordion" component={Acordion}>
-          {/* <Imagine /> */}
-        </Route>
+      <Switch>  
         <Route path="/CareerPath" component={CareerPath}>
           {/* <Imagine /> */}
         </Route>
