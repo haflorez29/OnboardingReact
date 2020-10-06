@@ -2,12 +2,16 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Imagine from "./Imagine";
 import Welcome from "./Welcome";
-import CareerPath from "./Career Path/CareerPath";
+import CareerPath from "./careerPath/CareerPath"
+import Triforce from "./triforce/Triforce"
 
 const Routers = () => {
   return (
     <Router>
       <Switch>  
+      <Route path="/Triforce" component={Triforce}>
+          {/* <Imagine /> */}
+        </Route>
         <Route path="/CareerPath" component={CareerPath}>
           {/* <Imagine /> */}
         </Route>

@@ -5,14 +5,18 @@ import "../style/Imagine.css"
 
 const Imagine = (user) => {
   let name= user.location.state.user
-  console.log('estado', name)
+  // console.log('estado', name)
   return (
     <div className="Imagine text-center text-light d-flex flex-column justify-content-around align-items-center container-fluid ">
       <p className="imagine-firts__p">
          {name} already belong to a studio, have a seniority and probably already
         work on a specific project. To understand this better
       </p>
-      <Link to="./CareerPath">
+      <Link 
+      to={{
+        pathname: "./CareerPath",
+        state: {user:name}
+      }}>
       <h4><strong>Let´s imagine!</strong></h4>
       </Link>      
       <p>
