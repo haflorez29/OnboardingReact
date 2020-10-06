@@ -1,3 +1,7 @@
 .career {
-    height: 100vh;
+    height: 100%;
+}
+
+.arrow {
+    transform: scale(2.5);
 }

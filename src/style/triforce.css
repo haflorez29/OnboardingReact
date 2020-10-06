@@ -1,0 +1,7 @@
+.bg-Triforce{
+    background-color:rosybrown;    
+}
+
+.name::first-letter {
+    text-transform: uppercase;
+}
