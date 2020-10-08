@@ -30,7 +30,7 @@ const FormWelcome = ({ setName }) => {
             state: {user:user}
           }}
         >
-          <button className="btn btn-success btn-sm ml-1  buttonWelcome ">
+          <button className="btn btn-success btn-md ml-1  buttonWelcome ">
             Save
           </button>
         </Link>

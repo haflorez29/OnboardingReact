@@ -5,3 +5,7 @@
 .arrow {
     transform: scale(2.5);
 }
+
+.exc {
+    background-color: rgb(105, 52, 61);
+}

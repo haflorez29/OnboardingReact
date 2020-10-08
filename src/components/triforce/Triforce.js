@@ -1,5 +1,6 @@
 import React from "react";
 import Tab from "./Tab";
+import Next from "../shared/Next";
 import "../../style/triforce.css";
 
 function Triforce(state) {
@@ -7,9 +8,14 @@ function Triforce(state) {
   console.log(name);
   return (
     <div className=" container-fluid bg-Triforce bg-dark">
-      <div className="text-warning p-4">
-        <h1 className="">The triforce</h1>
-        <hr className="bg-warning "></hr>
+      <div className="text p-4">
+        <div className="d-flex justify-content-around align-items-center ">
+          <h1 className="">The triforce</h1>
+            <Next
+            to="./FCI"
+            styleArrow="arrow text" />            
+        </div>
+        <hr className="hr"></hr>
         <p>The three aspects consist of the Studio, TDC and Accounts</p>
         <div className="d-flex">
           <p>You are here&nbsp;</p>

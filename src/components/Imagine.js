@@ -17,7 +17,7 @@ const Imagine = (user) => {
         pathname: "./CareerPath",
         state: {user:name}
       }}>
-      <h4><strong>Let´s imagine!</strong></h4>
+      <h4 className="text"><strong>Let´s imagine!</strong></h4>
       </Link>      
       <p>
         First we need to create our <strong>fictional character</strong>!
