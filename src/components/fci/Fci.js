@@ -4,7 +4,7 @@ import User from "../../images/Avatar.png";
 
 function Fci() {
   return (
-    <div className="container-fluid bg-dark vh-100 ">
+    <div className="container-fluid bg-dark vh-auto ">
       <div className="row " >
         <section className="col-12 col-md-6 text">
           <h1 className="">Globant Values &amp; FCI3</h1>
