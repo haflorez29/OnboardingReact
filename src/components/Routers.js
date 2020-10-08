@@ -4,11 +4,15 @@ import Imagine from "./Imagine";
 import Welcome from "./Welcome";
 import CareerPath from "./careerPath/CareerPath"
 import Triforce from "./triforce/Triforce"
+import Fci from "./fci/Fci";
 
 const Routers = () => {
   return (
     <Router>
       <Switch>  
+      <Route path="/FCI" component={Fci}>
+          {/* <Imagine /> */}
+        </Route>
       <Route path="/Triforce" component={Triforce}>
           {/* <Imagine /> */}
         </Route>

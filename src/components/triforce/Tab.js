@@ -44,7 +44,7 @@ function Tab() {
           </a>
         </div>
       </nav>
-      <div className="tab-content d-flex justify-content-center p-5 b-tabs"
+      <div className="tab-content d-flex justify-content-center p-5 b-tabs "
        id="nav-tabContent">
         <div
           className="tab-pane fade show active"

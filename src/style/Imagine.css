@@ -1,5 +1,7 @@
 .Imagine {
-    background-color: black;
+    background-image: url(../images/ResidentBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 

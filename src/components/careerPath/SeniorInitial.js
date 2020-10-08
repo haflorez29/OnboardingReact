@@ -2,7 +2,7 @@ import React from "react";
 
 function SeniorInitial({array, style}) {
   return (
-    <div className="p-1">
+    <div className="p-1 w-100 h-100">
       <ul className={`list-group ${style} table-secondary`}>
         {array.map((item) => {
           return <li className="text-center p-1 list">{item}</li>;
