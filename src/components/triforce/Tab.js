@@ -6,8 +6,9 @@ import "../../style/tab.css"
 
 function Tab() {
   return (
-    <div>
-      <nav>
+    <div className="p-4 d-flex justify-content-center">
+      <div className="w-75">
+      <nav >
         <div className="nav nav-tabs" id="nav-tab" role="tablist">
           <a
             className="nav-link active bg-primary text-light "
@@ -70,6 +71,7 @@ function Tab() {
         >
           <img src={Project} className="logo" alt="logo project"/>
         </div>
+      </div>
       </div>
     </div>
   );

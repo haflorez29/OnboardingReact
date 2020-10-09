@@ -6,11 +6,14 @@ import CareerPath from "./careerPath/CareerPath";
 import Triforce from "./triforce/Triforce";
 import Fci from "./fci/Fci";
 import KeyPeople from "./keyPeople/KeyPeople";
+import Ready from "./ready/Ready";
 
 const Routers = () => {
   return (
     <Router >
       <Switch>
+      <Route path="/Ready" component={Ready}>
+        </Route>
         <Route path="/People" component={KeyPeople}>
         </Route>
         <Route path="/FCI" component={Fci}>

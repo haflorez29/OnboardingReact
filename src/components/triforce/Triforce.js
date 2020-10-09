@@ -9,7 +9,7 @@ function Triforce(state) {
   return (
     <div className=" container-fluid bg-Triforce bg-dark">
       <div className="text p-4">
-        <div className="d-flex justify-content-around align-items-center ">
+        <div className="d-flex justify-content-between align-items-center ">
           <h1 className="">The triforce</h1>
             <Next
             to="./FCI"
