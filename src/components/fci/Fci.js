@@ -14,7 +14,7 @@ function Fci() {
               href="https://sites.google.com/globant.com/people-site-2/talent-manifesto?authuser=0"
               className="d-flex justify-content-center  align-items-center w-50"
             >
-              <img src={User} className="w-100" />
+              <img src={User} className="w-100 " alt="avatar" />
             </a>
           </div>
         </section>

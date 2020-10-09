@@ -1,29 +1,27 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Imagine from "./Imagine";
 import Welcome from "./Welcome";
-import CareerPath from "./careerPath/CareerPath"
-import Triforce from "./triforce/Triforce"
+import CareerPath from "./careerPath/CareerPath";
+import Triforce from "./triforce/Triforce";
 import Fci from "./fci/Fci";
+import KeyPeople from "./keyPeople/KeyPeople";
 
 const Routers = () => {
   return (
-    <Router>
-      <Switch>  
-      <Route path="/FCI" component={Fci}>
-          {/* <Imagine /> */}
+    <Router >
+      <Switch>
+        <Route path="/People" component={KeyPeople}>
         </Route>
-      <Route path="/Triforce" component={Triforce}>
-          {/* <Imagine /> */}
+        <Route path="/FCI" component={Fci}>
+        </Route>
+        <Route path="/Triforce" component={Triforce}>
         </Route>
         <Route path="/CareerPath" component={CareerPath}>
-          {/* <Imagine /> */}
         </Route>
         <Route path="/imagine" component={Imagine}>
-          {/* <Imagine /> */}
         </Route>
         <Route exact path="/" component={Welcome}>
-          {/* <Welcome /> */}
         </Route>
       </Switch>
     </Router>

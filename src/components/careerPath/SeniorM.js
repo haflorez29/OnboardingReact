@@ -1,8 +1,6 @@
 import React from "react";
 import "../../style/SeniorM.css"
 
-const arraySernioM = ["CTO", " STUDIO PARTNER", "VP TECH "];
-
 function SeniorM() {
   return (
     <ul className="list-group col-12 p-2 seniormurl table-secondary">
