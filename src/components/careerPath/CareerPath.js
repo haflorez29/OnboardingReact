@@ -23,7 +23,7 @@ function CareerPath(state) {
           </div>
           <hr className="hr"></hr>
           <div className="col-12  d-flex justify-content-center">
-            <img src={avatar} className="w-50"></img>
+            <img src={avatar} className="w-50" alt="avatar"></img>
           </div>
         </section>
         <section className="col-12 col-md-6 ">

@@ -52,7 +52,7 @@ function Tab() {
           role="tabpanel"
           aria-labelledby="nav-home-tab"
         >
-          <img src={Studio}  className="logo" />
+          <img src={Studio}  className="logo" alt="logo studio"/>
         </div>
         <div
           className="tab-pane fade"
@@ -60,7 +60,7 @@ function Tab() {
           role="tabpanel"
           aria-labelledby="nav-profile-tab"
         >
-          <img src={Cope}  className="logo"/>
+          <img src={Cope}  className="logo" alt="logo cope"/>
         </div>
         <div
           className="tab-pane fade"
@@ -68,7 +68,7 @@ function Tab() {
           role="tabpanel"
           aria-labelledby="nav-contact-tab"
         >
-          <img src={Project} className="logo" />
+          <img src={Project} className="logo" alt="logo project"/>
         </div>
       </div>
     </div>
