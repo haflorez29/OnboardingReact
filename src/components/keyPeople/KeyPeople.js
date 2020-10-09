@@ -10,7 +10,7 @@ import Next from "../shared/Next";
 function KeyPeople() {
   return (
     <div className="container-fluid bg-dark vh-100 text p-4">
-      <div className="d-flex justify-content-around align-items-center">
+      <div className="d-flex justify-content-between align-items-center">
         <h1>UI Studio COPE</h1>
         <Next to="/Ready" styleArrow="arrow text"></Next>
       </div>

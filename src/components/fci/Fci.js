@@ -8,7 +8,7 @@ function Fci() {
     <div className="container-fluid bg-dark vh-auto p-4">
       <div className="row " >
         <section className="col-12 col-md-6 text">
-          <div className="d-flex justify-content-around align-items-center">
+          <div className="d-flex justify-content-between align-items-center">
           <h1 className="">Globant Values &amp; FCI3</h1>
           <Next
           to="/People"
