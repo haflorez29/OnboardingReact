@@ -8,7 +8,7 @@ function CareerPath(state) {
   let name = state.location.state.user;
   console.log(name);
   return (
-    <div className="container-fluid vh-100 bg-dark ">
+    <div className="container-fluid containerbg  bg-dark ">
       <div className="row p-4">
         <section className="col-12 col-md-6">
           <div className="d-flex align-items-center justify-content-between">
