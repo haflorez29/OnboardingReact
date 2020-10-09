@@ -6,10 +6,11 @@ import Luciana from "../../images/Luciana.png";
 import Gabriel from "../../images/Gabriel.png";
 import Sebastian from "../../images/Sebastian.png";
 import Next from "../shared/Next";
+import "../../style/keyPeople.css"
 
 function KeyPeople() {
   return (
-    <div className="container-fluid bg-dark vh-100 text p-4">
+    <div className="container-fluid containerbg  text p-4">
       <div className="d-flex justify-content-between align-items-center">
         <h1>UI Studio COPE</h1>
         <Next to="/Ready" styleArrow="arrow text"></Next>
