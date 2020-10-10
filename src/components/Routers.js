@@ -7,11 +7,14 @@ import Triforce from "./triforce/Triforce";
 import Fci from "./fci/Fci";
 import KeyPeople from "./keyPeople/KeyPeople";
 import Ready from "./ready/Ready";
+import Studios from "./studios/Studios";
 
 const Routers = () => {
   return (
     <Router >
       <Switch>
+      <Route path="/Studios" component={Studios}>
+        </Route>
       <Route path="/Ready" component={Ready}>
         </Route>
         <Route path="/People" component={KeyPeople}>

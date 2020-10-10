@@ -10,7 +10,7 @@ function Triforce(state) {
     <div className=" container-fluid bg-Triforce bg-dark">
       <div className="text p-4">
         <div className="d-flex justify-content-between align-items-center ">
-          <h1 className="">The triforce</h1>
+          <h1 className="">The Triforce</h1>
             <Next
             to="./FCI"
             styleArrow="arrow text" />            
