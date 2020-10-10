@@ -1,0 +1,80 @@
+.blue{
+    background-color: rgb(29, 29, 180);
+}
+
+.green {
+    background-color: rgb(82, 228, 89);
+}
+
+.fuchsia {
+    background-color: rgb(219, 0, 248);
+}
+
+.lemongreen {
+    background-color: rgb(102, 240, 102);
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: rgb(218, 23, 23);
+}
+
+.granate {
+    background-color: rgb(194, 34, 74);
+}
+
+.pink {
+    background-color: rgb(218, 29, 107);
+}
+
+.bluegray {
+    background-color: royalblue;
+}
+
+.grey {
+    background-color: gray;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+.purple {
+    background-color: rgb(97, 57, 116);
+}
+
+.greenblue {
+    background-color:rgb(34, 179, 142) ;
+}
+
+.lila {
+    background-color: rgb(189, 166, 231);
+}
+
+.yellow {
+    background-color: rgb(252, 193, 0);
+}
+
+
+.turquoise {
+    background-color: turquoise;
+}
+
+.grayblue {
+    background-color: rgb(122, 171, 245);
+}
+
+.grape {
+    background-color: rgb(140, 53, 148);
+}
+
+.brown {
+    background-color: rgb(194, 171, 149);
+}
+
+#carouselimg {
+    height: 450px;
+}

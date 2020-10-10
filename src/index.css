@@ -17,6 +17,10 @@ p {
   font-size: x-large;
 }
 
+.fontsmall {
+  font-size: small;
+}
+
 .text {
   color: #bfd732;
 }

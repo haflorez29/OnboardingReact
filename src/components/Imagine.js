@@ -14,10 +14,10 @@ const Imagine = (user) => {
       </p>
       <Link 
       to={{
-        pathname: "./CareerPath",
+        pathname: "./Studios",
         state: {user:name}
       }}>
-      <h4 className="text"><strong>Let´s imagine!</strong></h4>
+      <h2 className="text"><strong>Let´s imagine!</strong></h2>
       </Link>      
       <p>
         First we need to create our <strong>fictional character</strong>!
