@@ -3,7 +3,6 @@ import img1 from "../../images/Carrousel1.jpg";
 import img2 from "../../images/Carrousel2.jpg";
 import img3 from "../../images/Carrousel3.jpg";
 import Item from "./Item";
-import FO from "../../images/FOO.svg";
 import "../../style/carousel.css";
 
 function Carousel() {
